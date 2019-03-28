@@ -11,12 +11,13 @@
 >2.Promise的原理,动手实现链式调用(包含异步操作)
 
 原理：
-1.函数方法全部返回this;
-2.将执行函数依次加入队列(绑定this)，依次执行，函数最后都要执行下一个函数，返回this
-参考了一下:(https://github.com/JanKid/delay)
-然后自己实现了一下(https://github.com/BoringDay/tools/tree/master/chain)
+a.函数方法全部返回this;  
+b.将执行函数依次加入队列(绑定this)，依次执行，函数最后都要执行下一个函数，返回this  
 
-3.seajs异步引入js的原理是啥？有没有写过异步引入js
+参考了一下:(https://github.com/JanKid/delay)  
+然后自己实现了一下(https://github.com/BoringDay/tools/tree/master/chain)  
+
+>3.seajs异步引入js的原理是啥？有没有写过异步引入js
 
 ## vue相关
 
