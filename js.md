@@ -12,3 +12,10 @@ b.将执行函数依次加入队列(绑定this)，依次执行，函数最后都
 然后自己实现了一下(https://github.com/BoringDay/tools/tree/master/chain) 
 
 >3.seajs异步引入js的原理是啥？有没有写过异步引入js
+
+>4.以下输出什么，要想改输出0,1,2,3,4怎么改
+`for(var i=0;i<5;i++){
+    setTimeout(function(){
+	console.log(i)
+})
+}`
