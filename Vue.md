@@ -1,4 +1,4 @@
-## vue相关
+# vue相关
 >1.简单说一下Vue，Vuex,Vue-router的实现原理
 
 >2.怎么异步引入组件
